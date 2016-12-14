@@ -4,7 +4,7 @@ title:  "Juniper - Day One: This Week - Deploying MPLS Introduction"
 date:   2016-12-11 19:30:00 +0100
 categories: juniper mpls
 ---
-I have been following the aforementioned Day One Book and have been documenting terse instructions to remind my "future" self of bare minimums needed for various networking config. There are a lot of congiguration directives missing from the Day One book so this post and associated files is sort of a fully configured Jump Start.
+I have been following the aforementioned Day One Book and have been documenting terse instructions to remind my "future" self of bare minimums needed for various networking config. There are a lot of congiguration directives missing from the Day One book as a high level of knowledge is assumed so this post and associated files is sort of a fully configured Jump Start.
 
 First off, if you do not already have a copy, I highly recommend it as a learning guide. It is "full on" but worth it. The author has done a great job with the mountain of work he has had to present. So get it [here](http://www.juniper.net/us/en/training/jnbooks/day-one/networking-technologies-series/this-week-deploying-mpls/).
 
