@@ -10,7 +10,7 @@ First off, if you do not already have a copy, I highly recommend it as a learnin
 
 So, when you make it through Chapter 1 following the examples and configurations in a lab environment, and then have had a read through Chapter 2, well then might find these pages of some interest. If you have not, then all of this is probably not going make any sense at all.
 
-To get started I have uploaded all the router configs [here](github.com), named as `hostname-initial.cfg` and these are configs for `Junos 12.1R1.9`. `ssh` is enabled and the password is `networkfoo1`. You will also find the network diagrams there in `.odg` format.
+To get started I have uploaded all the router configs [here](https://github.com/networkfoo/Juniper-Day_One-Deploying_MPLS/tree/master/introduction), named as `hostname-initial.cfg` and these are configs for `Junos 12.1R1.9`. `ssh` is enabled and the password is `networkfoo1`. You will also find the network topology diagram there in `.odg` format.
 
 ### Initial Configuration & Verification
 
