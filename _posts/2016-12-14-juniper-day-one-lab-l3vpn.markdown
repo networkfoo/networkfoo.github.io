@@ -171,7 +171,7 @@ traceroute to 172.17.0.1 (172.17.0.1), 30 hops max, 40 byte packets
  4  172.17.0.1 (172.17.0.1)  1.195 ms  0.792 ms  0.825 ms
 </pre>
 
-Then we can correct this by issuing `icmp-tunneling` on all our MPLS routers through the network:
+We can correct this by issuing `icmp-tunneling` on all our MPLS routers through the network:
 
 <pre>
 networkfoo@dalwhinnie# set protocols mpls icmp-tunneling 
