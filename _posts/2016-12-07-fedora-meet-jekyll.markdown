@@ -29,3 +29,8 @@ Next we create and start a new site:
 Navigate to [localhost:4000](http://localhost:4000)  and from here you should be able to glean enough information to edit the example site to your own wishes.
 
 The last bit to this puzzle (albeit, one that offers only a modicum of challenge), is to load this up to GitHub. Just push the contents of the working directory `networkfoo.github.io` into your repository up on GitHub and then navigate to [networkfoo.github.io](http://networkfoo.github.io).
+
+{% if site.disqus_shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+

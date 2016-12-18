@@ -16,9 +16,6 @@
 title: network foo
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  my place to write down some configuration examples and experimentations
-  with networking and virtualisation. hopefully i can put in some freebsd
-  related posts if i have time... if i have time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: networkfoo
@@ -32,3 +29,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+# Disqus post comments
+disqus_shortname: networkfoo
+
+

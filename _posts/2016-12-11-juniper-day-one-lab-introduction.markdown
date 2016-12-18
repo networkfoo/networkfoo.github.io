@@ -84,4 +84,7 @@ Delete the installed route now before we move on:
 
 OK, now that is all confirmed working, that is the end of Part 1. It leaves us ready to configure our BGP Level 3 VPN's in Part 2.
 
+{% if site.disqus_shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
 
