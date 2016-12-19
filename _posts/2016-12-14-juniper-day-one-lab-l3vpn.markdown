@@ -5,7 +5,7 @@ date:   2016-12-18 9:30:00 +0100
 categories: juniper mpls
 ---
 
-Files for this lab can be found [here](https://github.com/networkfoo/Juniper-Day_One-Deploying_MPLS/tree/master/l3vpn), same deal as the [Deploying MPLS Introduction](https://networkfoo.github.io/juniper/mpls/2016/12/11/juniper-day-one-lab-introduction.html) post.
+Files for this lab can be found [here](https://github.com/networkfoo/juniper/tree/master/day-one-deploying-mpls/l3vpn), same deal as the [Deploying MPLS Introduction](https://github.com/networkfoo/juniper/tree/master/day-one-deploying-mpls/intro) post.
 
 ![Topology One](/assets/images/2016-12-18-01.png)
 
@@ -211,7 +211,7 @@ traceroute to 172.17.0.1 (172.17.0.1), 30 hops max, 40 byte packets
 
 ### Conclusion ###
 
-So as you see we have proven working l3vpn connectivity. However we still have not set up CE1 & CE2 routers. I have included a `ce1-l3vpn.cfg` in the [usual place](https://github.com/networkfoo/Juniper-Day_One-Deploying_MPLS/tree/master/l3vpn) to set up the Customer Edge router should you wish to conduct more tests.
+So as you see we have proven working l3vpn connectivity. However we still have not set up CE1 & CE2 routers. I have included a `ce1-l3vpn.cfg` in the [usual place](https://github.com/networkfoo/juniper/tree/master/day-one-deploying-mpls/l3vpn) to set up the Customer Edge router should you wish to conduct more tests.
 
 I hope that this has helped and provided a base for further investigations.
 

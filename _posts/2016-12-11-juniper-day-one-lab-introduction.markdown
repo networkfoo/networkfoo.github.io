@@ -4,13 +4,13 @@ title:  "Juniper - Day One: This Week - Deploying MPLS Introduction"
 date:   2016-12-11 19:30:00 +0100
 categories: juniper mpls
 ---
-I have been following the aforementioned Day One Book and have been documenting terse instructions to remind my "future" self of bare minimums needed for various networking config. There are a lot of congiguration directives missing from the Day One book as a high level of knowledge is assumed so this post and associated files is sort of a fully configured Jump Start.
+I have been following the aforementioned Day One Book and have been documenting terse instructions to remind my "future" self of bare minimums needed for various networking config. There are a lot of configuration directives missing from the Day One book as a high level of knowledge is assumed so this post and associated files is sort of a fully configured Jump Start.
 
 First off, if you do not already have a copy, I highly recommend it as a learning guide. It is "full on" but worth it. The author has done a great job with the mountain of work he has had to present. So get it [here](http://www.juniper.net/us/en/training/jnbooks/day-one/networking-technologies-series/this-week-deploying-mpls/).
 
 So, when you make it through Chapter 1 following the examples and configurations in a lab environment, and then have had a read through Chapter 2, well then might find these pages of some interest. If you have not, then all of this is probably not going make any sense at all.
 
-To get started I have uploaded all the router configs [here](https://github.com/networkfoo/Juniper-Day_One-Deploying_MPLS/tree/master/introduction), named as `hostname-initial.cfg` and these are configs for `Junos 12.1R1.9`. `ssh` is enabled and the password is `networkfoo1`. You will also find the network topology diagram there in `.odg` format.
+To get started I have uploaded all the router configs [here](https://github.com/networkfoo/juniper/tree/master/day-one-deploying-mpls/intro), named as `hostname-initial.cfg` and these are configs for `Junos 12.1R1.9`. `ssh` is enabled and the password is `networkfoo1`. You will also find the network topology diagram there in `.odg` format.
 
 ### Initial Configuration & Verification
 
