@@ -51,3 +51,8 @@ So now we posess a multitude of Ansible foo, what to do? "Automate All of the Th
 {% endif %}
 
 
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+

@@ -33,3 +33,5 @@ exclude:
 disqus_shortname: networkfoo
 
 
+#Google Analytics
+google_analytics: UA-89271358-1

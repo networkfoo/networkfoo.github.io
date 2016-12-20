@@ -220,3 +220,8 @@ I hope that this has helped and provided a base for further investigations.
 {% endif %}
 
 
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+

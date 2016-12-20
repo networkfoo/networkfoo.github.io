@@ -34,3 +34,9 @@ The last bit to this puzzle (albeit, one that offers only a modicum of challenge
   {% include disqus_comments.html %}
 {% endif %}
 
+
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+
