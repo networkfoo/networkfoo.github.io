@@ -87,10 +87,3 @@ OK, now that is all confirmed working, that is the end of Part 1. It leaves us r
 {% if site.disqus_shortname %}
   {% include disqus_comments.html %}
 {% endif %}
-
-
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
-
