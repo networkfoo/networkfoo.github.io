@@ -10,7 +10,7 @@ I will note a couple of things that were peculiar as I worked my way through. Th
 
 ### Console Connections ###
 
-In the book, when connecting to a console, this is done via a **Terminal Server** rather than a **Serial Conection**. By default KVM provides serial ports for the console. These are Psuedo Terminals and provisioned under `/dev/pts/*` with * being the number/instance of the `pts`. However, for the purposes of the book we will need to reasign our consoles to be available via a Terminal Server. We do this with some XML fiddling so our relevant sections appear as follows:
+In the chapter, when connecting to a console, this is done via a **Terminal Server** rather than a **Serial Conection**. By default KVM provides serial ports for the console. These are Psuedo Terminals and provisioned under `/dev/pts/*` with * being the number/instance of the `pts`. However, for the purposes of the chapter we will need to reasign our consoles to be available via a Terminal Server. We do this with some XML fiddling so our relevant sections appear as follows:
 
     <serial type='tcp'>
       <source mode='bind' host='127.0.0.1' service='4555'/>
@@ -45,6 +45,39 @@ Well, in hindsight that seems all like a no-brainer but if you come up against t
 
 So now we posess a multitude of Ansible foo, what to do? "Automate All of the Things" or "[Automate Some of the Things](http://packetpushers.net/podcast/podcasts/datanauts-053-automate-things/)".
 
+### Update ###
+
+junos-netconify has now been merged into PyEZ so when you read through the chapter...
+
+* you **do not** need to install `junos-netconify` 
+
+* you need to adjust the code to reflect the PyEZ way of doing things.
+
+So what was:
+{% raw %}
+      ...
+      junos_get_facts:
+        host: "{{ inventory_hostname }}"
+        console: "--telnet={{ jaccess.console_ts }},{{ jaccess.console_port }}"
+        user: "root"
+        passwd: "{{ jaccess.root_password }}"
+        savedir: tmp/
+      register: jresult
+      ...
+{% endraw %}
+should appear:
+{% raw %}
+      ...
+      junos_get_facts:
+        host: "{{ jaccess.console_ts }}"
+        mode: "telnet"
+        port: "{{ jaccess.console_port }}"
+        user: "root"
+        passwd: "{{ jaccess.root_password }}"
+        savedir: tmp/
+      register: jresult
+      ...
+{% endraw %}
 
 {% if site.disqus_shortname %}
   {% include disqus_comments.html %}
