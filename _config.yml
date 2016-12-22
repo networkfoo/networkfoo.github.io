@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: network foo
-#email: your-email@domain.com
+email: networkfoo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Open source & Juniper enthusiast. Blogging all about my Fedora/KVM Network lab
   & hashing over study material for Juniper Service Provider exams. Sometimes 
