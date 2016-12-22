@@ -16,6 +16,9 @@
 title: network foo
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
+  Open source & Juniper enthusiast. Blogging all about my Fedora/KVM Network lab
+  & hashing over study material for Juniper Service Provider exams. Sometimes 
+  automating "some of the things" with Ansible.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: networkfoo
