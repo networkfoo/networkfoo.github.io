@@ -7,7 +7,7 @@ categories: juniper vMX kvm
 
 ![Book Cover](/assets/images/2016-12-22-01.png){:style="float: left;margin-right: 10px;margin-top: 7px;"} This past weekend I received access to download the Trial Version for Juniper's vMX router. I have had to change a bunch of stuff to get it up and running on Fedora, which is the os I run KVM from. The trial software can be downloaded from [here](http://www.juniper.net/us/en/dm/free-vmx-trial/), however you will need to set up a relevant account and then contact Juniper Customer Services. This can take some time.
 
-The setup is pretty complex without a guide and you will want to get hold of [Matt Dinham](https://twitter.com/mattdinham)'s excellent Day One Book "[vMX Up & Running](http://www.juniper.net/us/en/training/jnbooks/day-one/automation-series/vmx-up-running/)". You will want ro read, at least chapters 1 & 2 before starting here. 
+The setup is pretty complex without a guide and you will want to get hold of [Matt Dinham](https://twitter.com/mattdinham)'s excellent Day One Book "[vMX Up & Running](http://www.juniper.net/us/en/training/jnbooks/day-one/automation-series/vmx-up-running/)". You will want to read, at least chapters 1 & 2 before starting here. 
 
 As the `vMX` orchestration scripts are written to run with `ubuntu`, there was a lot of breakage to deal with so I will attempt to clear the path for any other Fedora users. I read somewhere on the Juniper site that vMX should run under Red Hat, so this may even run on Red Hat or CentOS, out of the box. Please let me know if it does.
 
@@ -75,7 +75,7 @@ I haven't done much of anything fancy. All of it can be garnered from reading th
     Hugepagesize:       2048 kB
     </pre>
     
-  * next we skip the "ubuntu apparmor" foo, as Huge Pages is handle correctly via SELinux.
+  * next we skip the "ubuntu apparmor" foo, as Huge Pages is handled correctly via SELinux.
 
   * and finally 2 entries to start and stop libvirt.
 
