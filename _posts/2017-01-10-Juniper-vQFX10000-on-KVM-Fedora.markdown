@@ -87,7 +87,6 @@ FPC slot 0, PIC slot 0 information:
   Type                             48x 10G-SFP+
   State                            Online    
   PIC version                  2.9
-gin with username *root* and passord *no*.
 
   Uptime			 35 seconds
 
