@@ -26,7 +26,7 @@ brctl addbr qfx-int
 ifconfig qfx-int up
 </pre>
 
-Create anothe bridge for your first dataplane interface *xe-0/0/0*.
+Create another bridge for your first dataplane interface *xe-0/0/0*.
 
 <pre>
 brctl addbr dataplane
@@ -72,7 +72,7 @@ virt-install \
 </pre>
 
 
-**Note:** There is one *big* gotcha with the installation as it starts. There will be no console output as the vm boots past the *grub menu*. So, when you see the *grub menu*, press *e* for "edit" and insert into the kernel line *console=ttyS0* to continue. At this stage there is no reason to log into the PFE via console as it will become available via *ssh* once the management interface grabs an ip number from *dhcp*.
+**Note:** There is *one big gotcha* with the installation, as it starts. There will be no console output after the *grub menu*. So, when you see the *grub menu*, **press *e* for "edit"** and insert into the kernel line **console=ttyS0** to continue. At this stage there is no reason to log into the PFE via console as it will become available via *ssh* once the management interface grabs an ip number from *dhcp*.
 
 Login with username *root* and password *no*.
 
