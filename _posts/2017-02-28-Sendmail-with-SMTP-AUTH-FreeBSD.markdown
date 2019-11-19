@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sendmail With SMTO AUTH - FreeBSD"
+title:  "Sendmail With SMTP AUTH - FreeBSD"
 date:   2017-02-28 09:30:00 +0100
 categories: freebsd sendmail
 ---
